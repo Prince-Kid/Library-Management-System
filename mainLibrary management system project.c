@@ -9,7 +9,7 @@ FILE*ECO;
 FILE*NOV;
 FILE*KID;
 FILE*Rel;
-struct book 
+struct book   
 {
 	int Book_ID,choice;
 	char Book_name[20],Book_Pubisher[20],Book_Author[20];
@@ -30,7 +30,7 @@ void exit();
 
 int main(int argc, char *argv[]) {
 	
-	printf("\t********* Welcome In Library management system ****************** \n\n");
+	printf("\t*****    Welcome In Library management system ****************** \n\n");
 
 	
 	
